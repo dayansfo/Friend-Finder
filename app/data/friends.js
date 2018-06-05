@@ -1,0 +1,166 @@
+var friendsArray = [
+  {
+      "name":"Brad Pitt",
+      "photo":"http://dlisted.com/wp-content/uploads/2018/04/wenn30489104.jpg",
+      "scores":[
+          5,
+          1,
+          2,
+          4,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1
+      ]
+  },
+
+  {
+    "name":"Angelina Jolie",
+    "photo":"https://www.hellomagazine.com/imagenes/profiles/angelina-jolie/5727-new-angelina-profile-pic.jpg",
+    "scores":[
+        4,
+        3,
+        3,
+        4,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+    ]
+},
+
+{
+  "name":"Kim Kardashian",
+  "photo":"https://media.wmagazine.com/photos/5ad748bd077f7752d7818a89/4:3/w_1536/kim-kardashian-joking-on-twitter.jpg",
+  "scores":[
+      5,
+      1,
+      2,
+      4,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1
+  ]
+},
+{
+  "name":"Jlo",
+  "photo":"http://poshfashionnews.com/media/k2/galleries/11741/JLO-Jennifer-Lopez-Clothing-2016-Collection07.jpg",
+  "scores":[
+      5,
+      1,
+      2,
+      4,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1
+  ]
+},
+{
+  "name":"Chris Rock",
+  "photo":"https://www.guiadelocio.com/var/guiadelocio.com/storage/images/cine/personajes/chris-rock/7093017-11-esl-ES/chris-rock.jpg",
+  "scores":[
+      2,
+      3,
+      2,
+      4,
+      2,
+      1,
+      5,
+      5,
+      5,
+      1
+  ]
+},
+{
+  "name":"Bob Marley",
+  "photo":"https://lastfm-img2.akamaized.net/i/u/770x0/f959460cf8be446aa175a6fb30f0e52c.jpg",
+  "scores":[
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      1
+  ]
+},
+{
+  "name":"Eminem",
+  "photo":"https://www.billboard.com/files/media/eminem-river-vid-2018-billboard-1548.jpg",
+  "scores":[
+      5,
+      1,
+      2,
+      4,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1
+  ]
+},
+{
+  "name":"Pink",
+  "photo":"http://cdn.speakerscorner.me/wp-content/uploads/2017/12/Pink_9.jpg",
+  "scores":[
+      2,
+      1,
+      5,
+      4,
+      2,
+      1,
+      3,
+      3,
+      3,
+      1
+  ]
+},
+{
+  "name":"Oprah",
+  "photo":"http://o.aolcdn.com/hss/storage/midas/77525020a96bf38b79ae1b56b720aad2/206087023/profile_oprah_winfrey.jpg",
+  "scores":[
+      1,
+      2,
+      3,
+      4,
+      2,
+      2,
+      2,
+      6,
+      2
+      
+  ]
+},
+{
+  "name":"Deepa Chopra",
+  "photo":"https://www.charlottefive.com/wp-content/uploads/2018/03/deepak.jpg",
+  "scores":[
+      5,
+      4,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1
+  ]
+},
+]
+
+module.exports = friends;
