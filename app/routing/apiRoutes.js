@@ -1,16 +1,18 @@
 // LOAD DATA
-var friends = require("../data/friends");
+
 // ROUTING
 
 module.exports = function(app) {
+  var friends = require("../data/friends.js");
   app.get("/api/friends", function(req, res) {
-    res.json(tableData);
+    res.json(friends);
   });
 
   // POST Requests
   app.post("/api/friends", function(req, res) {
-
+    console.log("HERE")
     var surveyResults = req.body;
+    console.log(surveyResults)
     surveyResults.name = surveyResults.name.replace(/\s+/g, "");
     surveyResults.photo = surveyResults.photo.replace(/\s+/g, "");
 
